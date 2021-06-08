@@ -4,10 +4,10 @@ const UseStateBasics = () => {
   const [text, setText] = useState("hello");
   // console.log(text);
   const handleClick = () => {
-    if (text === "hello") {
+    if (text === "helloo") {
       setText("hi");
     } else {
-      setText("hello");
+      setText("helloo");
     }
   };
 
